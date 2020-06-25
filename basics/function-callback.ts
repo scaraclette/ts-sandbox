@@ -3,9 +3,9 @@ function add(n1: number, n2: number) {
 }
 
 // void function
-function printResult(num: number) {
-    console.log('Result: ' + num);
-}
+// function printResult(num: number) {
+//     console.log('Result: ' + num);
+// }
 
 function addAndHandle(n1: number, n2: number, cb: (num: number) => void) {
     const result = n1 + n2;
